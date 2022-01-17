@@ -1,4 +1,4 @@
-export const handler = () => ({
+export const handler = async () => ({
   statusCode: 200,
   body: "yay",
 });
