@@ -18,7 +18,7 @@ export class ExamplePipeline extends cdk.Stack {
       "jw-github-token"
     );
 
-    const stage = new ExamplePipelineStage(this, "example-pipeline-stage", {});
+    const stage = new ExamplePipelineStage(this, "ExamplePipelineStage", {});
 
     const pipeline = new CodePipeline(this, "ExamplePipeline", {
       pipelineName: "ExamplePipeline",

@@ -5,5 +5,5 @@ import { ExampleCdkPipelineStack } from "../lib/example-cdk-pipeline-stack";
 import { ExamplePipeline } from "../lib/pipeline";
 
 const app = new cdk.App();
-new ExamplePipeline(app, "example-pipeline", {});
+new ExamplePipeline(app, "ExamplePipeline", {});
 app.synth();
